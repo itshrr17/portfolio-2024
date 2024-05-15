@@ -1,6 +1,7 @@
 import * as React from "react"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoDocumentText } from "react-icons/io5";
+import { Works } from "../components/works";
 
 const IndexPage = () => {
   return (
@@ -20,6 +21,7 @@ const IndexPage = () => {
         </div>
       </div>
     </section>
+    <Works />
     </div>
   )
 }
